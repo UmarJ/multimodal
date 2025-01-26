@@ -85,6 +85,6 @@ class ModelArguments:
 
 @dataclass
 class FLAVAArguments:
-    datasets: TrainingDatasetsInfo = field(default_factory=TrainingDatasetsInfo())
-    training: TrainingArguments = field(default_factory=TrainingArguments())
-    model: ModelArguments = field(default_factory=ModelArguments())
+    datasets: TrainingDatasetsInfo = field(default_factory=TrainingDatasetsInfo)
+    training: TrainingArguments = field(default_factory=TrainingArguments)
+    model: ModelArguments = field(default_factory=ModelArguments)
